@@ -82,10 +82,16 @@ body {
   background-color: transparent;
   display: block;
   padding: 10px;
-  margin: -7rem auto;
+  margin: -6rem auto;
+  transition: all 1s;
+}
+
+.navbar .container .nav-link ul li a:hover {
+  transform: scale(1.1);
 }
 
 .navbar .container .content button:hover {
   background: rgb(255, 255, 255);
   color: black;
+  transform: scale(1.1);
 }
